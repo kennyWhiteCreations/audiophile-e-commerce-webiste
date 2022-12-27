@@ -7,12 +7,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "deploy": "gh-pages -d dist"
   },
   "minify": true,
   "author": "",
   "license": "ISC",
+  "homepage": "https://kennywhitecreations.github.io/audiophile-e-commerce-webiste",
   "devDependencies": {
     "parcel": "^2.8.2"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
